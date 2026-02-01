@@ -45,3 +45,7 @@ python3 src/wsba.py --target example.com --out reports/example-com
 
 Archil Veltauri
 IBM Certified Cybersecurity Analyst
+
+## Project Status ##g
+WSBA is a completed baseline security assessment tool intended for educational and portfolio use.  
+All scans are non-intrusive and must be run only against owned or explicitly authorized targets.
