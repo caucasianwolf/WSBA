@@ -1,15 +1,15 @@
 {
   "target": "example.com",
   "url": "https://example.com/",
-  "timestamp_utc": "2026-02-01T20:15:43+00:00",
+  "timestamp_utc": "2026-02-01T20:20:02+00:00",
   "dns": {
     "A": [
       "104.18.26.120",
       "104.18.27.120"
     ],
     "AAAA": [
-      "2606:4700::6812:1b78",
-      "2606:4700::6812:1a78"
+      "2606:4700::6812:1a78",
+      "2606:4700::6812:1b78"
     ],
     "MX": [
       "0 ."
@@ -22,13 +22,13 @@
   "http": {
     "status_line": "HTTP/2 200 ",
     "headers": {
-      "date": "Sun, 01 Feb 2026 20:15:44 GMT",
+      "date": "Sun, 01 Feb 2026 20:20:03 GMT",
       "content-type": "text/html",
-      "cf-ray": "9c741f5ff9145ed0-EWR",
+      "cf-ray": "9c7425b0e94a41f8-EWR",
       "last-modified": "Fri, 30 Jan 2026 05:47:18 GMT",
       "allow": "GET, HEAD",
       "accept-ranges": "bytes",
-      "age": "1549",
+      "age": "1807",
       "cf-cache-status": "HIT",
       "server": "cloudflare"
     }
