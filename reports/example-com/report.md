@@ -1,10 +1,10 @@
 # WSBA Report: `example.com`
 
 - URL tested: https://example.com/
-- Timestamp (UTC): 2026-02-01T18:44:02+00:00
+- Timestamp (UTC): 2026-02-01T19:03:59+00:00
 
 ## DNS Snapshot
-- **A**: 104.18.26.120, 104.18.27.120
+- **A**: 104.18.27.120, 104.18.26.120
 - **AAAA**: 2606:4700::6812:1a78, 2606:4700::6812:1b78
 - **MX**: 0 .
 - **TXT**: "v=spf1 -all", "_k2n1y4vw3qtb4skdx9e7dxt97qrmmq9"
