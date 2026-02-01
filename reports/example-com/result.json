@@ -1,15 +1,15 @@
 {
   "target": "example.com",
   "url": "https://example.com/",
-  "timestamp_utc": "2026-02-01T19:03:59+00:00",
+  "timestamp_utc": "2026-02-01T20:15:43+00:00",
   "dns": {
     "A": [
-      "104.18.27.120",
-      "104.18.26.120"
+      "104.18.26.120",
+      "104.18.27.120"
     ],
     "AAAA": [
-      "2606:4700::6812:1a78",
-      "2606:4700::6812:1b78"
+      "2606:4700::6812:1b78",
+      "2606:4700::6812:1a78"
     ],
     "MX": [
       "0 ."
@@ -22,13 +22,13 @@
   "http": {
     "status_line": "HTTP/2 200 ",
     "headers": {
-      "date": "Sun, 01 Feb 2026 19:03:59 GMT",
+      "date": "Sun, 01 Feb 2026 20:15:44 GMT",
       "content-type": "text/html",
-      "cf-ray": "9c73b646af711016-EWR",
-      "last-modified": "Fri, 30 Jan 2026 23:42:19 GMT",
+      "cf-ray": "9c741f5ff9145ed0-EWR",
+      "last-modified": "Fri, 30 Jan 2026 05:47:18 GMT",
       "allow": "GET, HEAD",
       "accept-ranges": "bytes",
-      "age": "11644",
+      "age": "1549",
       "cf-cache-status": "HIT",
       "server": "cloudflare"
     }
@@ -44,6 +44,44 @@
       "Permissions-Policy"
     ]
   },
+  "score": {
+    "score": 30,
+    "grade": "F",
+    "level": "poor",
+    "penalty": 70
+  },
+  "findings": [
+    {
+      "title": "Missing Strict-Transport-Security",
+      "severity": "Medium",
+      "recommendation": "max-age=15552000; includeSubDomains; preload"
+    },
+    {
+      "title": "Missing Content-Security-Policy",
+      "severity": "Medium",
+      "recommendation": "Implement a secure default aligned to site requirements."
+    },
+    {
+      "title": "Missing X-Frame-Options",
+      "severity": "Low",
+      "recommendation": "DENY"
+    },
+    {
+      "title": "Missing X-Content-Type-Options",
+      "severity": "Low",
+      "recommendation": "nosniff"
+    },
+    {
+      "title": "Missing Referrer-Policy",
+      "severity": "Info",
+      "recommendation": "strict-origin-when-cross-origin"
+    },
+    {
+      "title": "Missing Permissions-Policy",
+      "severity": "Info",
+      "recommendation": "camera=(), microphone=(), geolocation=()"
+    }
+  ],
   "tls": {
     "raw": "subject=CN=example.com\nissuer=C=US, O=SSL Corporation, CN=Cloudflare TLS Issuing ECC CA 3\nnotBefore=Dec 16 19:39:32 2025 GMT\nnotAfter=Mar 16 18:32:44 2026 GMT"
   }
